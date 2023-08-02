@@ -40,7 +40,6 @@ class AddTransactionPopup extends Component {
     amount: '',
     date: '',
     required: '',
-    allFieldAreRequiredMessage: false,
     transactionNameErrorMessage: false,
     amountErrorMessage: false,
   }
