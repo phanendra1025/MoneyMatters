@@ -1,0 +1,51 @@
+.all-transactions-card {
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 20vh;
+  padding: 16px 30px;
+  border-radius: 25px;
+}
+.all-transaction-table-headings-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #e2e2e2;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.transactions-table-headings {
+  color: #343c6a;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.category {
+  margin-left: 306px;
+}
+.date {
+  margin-left: 96px;
+}
+.amount {
+  margin-left: 195px;
+}
+.transaction-heading-user-name {
+  width: 164px;
+  margin-right: 170px;
+}
+.all-transaction-list-container {
+  padding: 0px;
+}
+.transaction-admin-category {
+  margin-left: 114px;
+  width: 72px;
+  margin-right: 96px;
+}
+.admin-amount-transaction {
+  margin-left: 195px;
+}
+.admin-margin-date {
+  margin-left: 96px;
+}

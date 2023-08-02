@@ -1,0 +1,161 @@
+.transaction-item {
+  list-style: none;
+  width: 100%;
+
+  border: 1px solid #e2e2e2;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.transaction-detail-container {
+  display: flex;
+  align-items: center;
+  height: 58px;
+}
+li:nth-last-child(1) {
+  border-width: 0px;
+}
+.transaction-name {
+  color: #505887;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 16px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  width: 317px;
+}
+.transaction-category {
+  color: #718ebf;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  margin-left: 80px;
+  text-transform: capitalize;
+  width: 130px;
+}
+.transaction-date-details {
+  color: #718ebf;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  margin-left: 100px;
+  width: 131px;
+}
+.last-transaction-credit-amount {
+  color: #16dbaa;
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 101px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  width: 100px;
+  text-align: left;
+}
+.last-transaction-debit-amount {
+  color: #fe5c73;
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 101px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  width: 100px;
+  text-align: left;
+}
+
+.delete-button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.delete-image {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.transaction-item-user-profile-icon {
+  margin-left: 24px;
+}
+.transaction-item-user-name {
+  color: #505887;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 153px;
+  margin-left: 8px;
+}
+.admin-transaction-name {
+  color: #505887;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 174px;
+  margin-left: 89px;
+  text-transform: capitalize;
+}
+.admin-transaction-category {
+  color: #505887;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100px;
+  margin-left: 80px;
+}
+.admin-transaction-date-details {
+  width: 131px;
+  color: #505887;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 96px;
+}
+.last-transaction-admin-credit-amount {
+  width: 80px;
+  color: #16dbaa;
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 100px;
+}
+.last-transaction-admin-debit-amount {
+  width: 80px;
+  color: #fe5c73;
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 100px;
+}

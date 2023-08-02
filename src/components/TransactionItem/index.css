@@ -1,0 +1,138 @@
+.all-transaction-item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e2e2e2;
+}
+.all-transaction-detail-container {
+  display: flex;
+  align-items: center;
+}
+.all-transaction-name {
+  width: 317px;
+  color: #505887;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-left: 16px;
+}
+.all-transaction-category {
+  width: 72px;
+  color: #505887;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 80px;
+  text-transform: capitalize;
+}
+.all-transaction-date-details {
+  width: 131px;
+  color: #505887;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 96px;
+}
+.all-transaction-credit-amount {
+  color: #16dbaa;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 100px;
+  width: 100px;
+}
+.all-transaction-debit-amount {
+  color: #fe5c73;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 100px;
+  width: 100px;
+}
+.all-transaction-edit-button {
+  background-color: #ffffff;
+  border-width: 0px;
+  margin-left: 85px;
+  cursor: pointer;
+}
+.all-transaction-delete-button {
+  background-color: #ffffff;
+  border-width: 0px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.transaction-item-user-name {
+  color: #505887;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 153px;
+  margin-left: 8px;
+}
+.admin-transaction-name-1 {
+  color: #505887;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 174px;
+  margin-left: 89px;
+  text-transform: capitalize;
+}
+.admin-transaction-category-1 {
+  color: #505887;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100px;
+  margin-left: 80px;
+  width: 100px;
+}
+.admin-transaction-date-details-1 {
+  width: 131px;
+  color: #505887;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 160px;
+}
+.admin-credit-amount-1 {
+  width: 80px;
+  color: #16dbaa;
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 140px;
+}
+.admin-debit-amount-1 {
+  width: 80px;
+  color: #fe5c73;
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 150px;
+}

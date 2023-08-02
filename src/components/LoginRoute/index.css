@@ -1,0 +1,123 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding-right: 20px;
+}
+.login-image {
+  width: 650px;
+  height: 450px;
+}
+.login-form {
+  width: 456px;
+  height: 458px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fefeff;
+  box-shadow: 0px 8px 40px 0px rgba(7, 7, 7, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-website-logo {
+  width: 24pxpx;
+  height: 24px;
+  margin-right: 8px;
+}
+.webiste-logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.login-webiste-name {
+  color: #f89a23;
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.login-website-span {
+  color: #02969c;
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.inputs-container {
+  width: 360px;
+  height: 64px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+.username-input-container {
+  margin-bottom: 17px;
+}
+.input-labels {
+  color: #262626;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+}
+.login-inputs {
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 2px;
+  background: #eee;
+  border-width: 0px;
+  margin-top: 6px;
+  padding-left: 15px;
+}
+.login-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #4094ef;
+  border-width: 0px;
+  text-align: center;
+  margin-top: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.login-text {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.login-error-message {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  color: red;
+  font-family: 'Roboto';
+  width: 360px;
+}
+.login-loading-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

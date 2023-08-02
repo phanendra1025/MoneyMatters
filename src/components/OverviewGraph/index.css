@@ -1,0 +1,36 @@
+.overview-graph-wrapper {
+  margin-top: 24px;
+}
+.overview-graph-heading {
+  color: #333b69;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.overview-graph-container {
+  height: 364px;
+  flex-shrink: 0;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 30px 28px;
+}
+.graph-text {
+  color: #718ebf;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}
+.overview-graph-span-texts {
+  color: #333b69;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+}

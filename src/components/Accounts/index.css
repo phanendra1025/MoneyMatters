@@ -1,0 +1,151 @@
+.dashboard {
+  width: 100%;
+  min-height: 100vh;
+  overflow-y: auto;
+  background-color: #f5f7fa;
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 84px;
+  padding: 24px 40px;
+  border: 1px solid #e2e2e2;
+  background-color: #ffffff;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.header-heading {
+  color: #343c6a;
+  font-family: 'Inter';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.add-transaction-button {
+  width: 166px;
+  height: 36px;
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 12px;
+  background: #2d60ff;
+  color: #ffffff;
+  border-width: 0px;
+  cursor: pointer;
+}
+.dashboard-section {
+  padding: 40px 24px;
+}
+.credit-and-debit-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dashboard-money-details-card {
+  display: flex;
+  width: 543px;
+  height: 168px;
+  padding: 25px 36px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+.dashboard-money-details-credit-card {
+  margin-right: 24px;
+}
+.money-details-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: flex-start;
+}
+.credited-money {
+  margin: 0px;
+  color: #16dbaa;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.transaction-type {
+  margin: 0px;
+  color: #718ebf;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+.dashboard-credit-image {
+  width: 182.431px;
+  height: 161px;
+}
+.dashboard-debit-image {
+  width: 187.807px;
+  height: 154.736px;
+}
+.debited-money {
+  color: #fe5c73;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0px;
+}
+.credit-debit-loader-container {
+  width: 100%;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view-card {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 24px;
+}
+.error-image {
+  width: 300px;
+  height: 300px;
+}
+.error-heading {
+  color: #2d60ff;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px;
+}
+.retry-button {
+  width: 100px;
+  height: 36px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: 'Inter';
+  border-width: 0px;
+  background-color: #2d60ff;
+  margin-top: 15px;
+  cursor: pointer;
+}

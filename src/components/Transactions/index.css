@@ -1,0 +1,35 @@
+.transactions-container {
+  width: 100%;
+  background: #f5f7fa;
+  overflow-y: auto;
+}
+.transaction-header {
+  display: flex;
+  width: 100%;
+  padding: 24px 40px 0px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  background-color: #ffffff;
+}
+.transaction-heading {
+  color: #343c6a;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0px;
+}
+.transaction-options-container {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+.all-transactions-container {
+  background-color: #f5f7fa;
+  min-height: 80vh;
+  padding: 30px;
+  overflow-y: auto;
+}
