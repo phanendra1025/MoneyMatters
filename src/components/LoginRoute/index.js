@@ -70,7 +70,7 @@ class LoginRoute extends Component {
       }
     } else {
       this.setState({
-        errorMessage: 'Enter Valid Input',
+        errorMessage: 'Enter valid details*',
         email: '',
         password: '',
         isLoading: false,
